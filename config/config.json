@@ -1,0 +1,29 @@
+{
+    "path": "./",
+    "BeePot": {
+        "userapi": "https://***/userserver",
+        "managerapi": "https://***/graphql",
+        "queryapi": "https://***/graphql",
+        "dbmysql": {
+            "host": "127.0.0.1",
+            "port": 3306,
+            "database": "wallet",
+            "user": "user",
+            "password": "password"
+        },
+        "mongodb": {
+            "host": "127.0.0.1",
+            "port": 27017
+        },
+        "clickhouse": {
+            "host": "127.0.0.1",
+            "database": "wallet",
+            "user": "default",
+            "password": "password"
+        },
+        "sqlite": "ddt/BeePot.db"
+    },
+    "log": {
+        "path": "log/"
+    }
+}

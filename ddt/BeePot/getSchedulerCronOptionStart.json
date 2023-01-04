@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "params": {
+    "data": {
+      "relateChainId": "6396bbff09b98b5338674d98",
+      "relateContractSettingId": "6396c0ef206153681c42127f",
+      "taskType": "OPTION_START",
+      "name": "BTC-USDT-option-start",
+      "status": 0,
+      "step": [
+        [
+          "OptionYield",
+          "startMarketOption",
+          "false",
+          "[]"
+        ]
+      ],
+      "createTime": 1670824176,
+      "updateTime": 1670824176,
+      "version": "1",
+      "isDelete": 0,
+      "cron": "0 0/10 * * * ?",
+      "explain": {
+        "period": 600,
+        "expiry": 5,
+        "share": "BTC",
+        "money": "USDT",
+        "market": "***"
+      },
+      "id": "6396c0f0206153681c421281"
+    },
+    "chain": "Polygon",
+    "taskName": "BTC-USDT-option-start"
+  },
+  "timestamps": 1670824177
+}

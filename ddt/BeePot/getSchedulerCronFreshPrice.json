@@ -1,0 +1,33 @@
+{
+  "id": 1,
+  "params": {
+    "chain": "Polygon",
+    "data": {
+      "relateChainId": "6396bbff09b98b5338674d98",
+      "relateContractSettingId": "6396c0ef206153681c42127f",
+      "taskType": "FRESH_PRICE",
+      "name": "BTC-USDT-fresh-price",
+      "status": 0,
+      "step": [
+        [
+          "priceOracle",
+          "setMarketPrice",
+          "false",
+          "[]"
+        ]
+      ],
+      "createTime": 1670824176,
+      "updateTime": 1670824176,
+      "version": "1",
+      "isDelete": 0,
+      "cron": "0 0/1 * * * ?",
+      "explain": {
+        "period": 60,
+        "market": "***"
+      },
+      "id": "6396c0f0206153681c421280"
+    },
+    "taskName": "BTC-USDT-fresh-price"
+  },
+  "timestamps": 1670824176
+}

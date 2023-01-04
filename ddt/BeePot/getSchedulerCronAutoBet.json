@@ -1,0 +1,41 @@
+{
+    "id": 1,
+    "params": {
+        "taskName": "BTC-USDT-auto-bet",
+        "chain": "Polygon",
+        "data": {
+            "relateChainId": "6396bbff09b98b5338674d98",
+            "relateContractSettingId": "6396c0ef206153681c42127f",
+            "taskType": "AUTO_BET",
+            "name": "BTC-USDT-auto-bet",
+            "status": 0,
+            "step": [
+                [
+                    "OptionYield",
+                    "bet",
+                    "false",
+                    "[]"
+                ]
+            ],
+            "createTime": 1670824176,
+            "updateTime": 1670824176,
+            "version": "1",
+            "isDelete": 0,
+            "cron": "0/40 0/4 * * * ?",
+            "explain": {
+                "type": 0,
+                "singleBet": {
+                    "opPercent": 10,
+                    "period": 280,
+                    "duration": 10,
+                    "amount": 10
+                },
+                "market": "***"
+            },
+            "id": "6396c0f0206153681c421282"
+        }
+        
+        
+    },
+    "timestamps": 1670824177
+}

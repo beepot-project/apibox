@@ -1,0 +1,25 @@
+{
+    "id": 1,
+    "params": {
+        "chain": "Polygon",
+        "data": {
+            "chain": "Polygon",
+            "chainId": 137,
+            "contract": {
+                "optionYield": {
+                    "address": "***"
+                },
+                "priceOracle": {
+                    "address": "***"
+                },
+                "optionStorage": {
+                    "address": "***"
+                }
+            },
+            "node": [
+                "https://****/endpoint/"
+            ]
+        }
+    },
+    "timestamps": 1670822911
+}
